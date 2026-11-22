@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suhaib Mohamed Abdi | IT Support &amp; Aspiring Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Suhaib Mohamed Abdi: IT support, technical installation and graphic design, building towards full-stack web development. Hargeisa, Somaliland.">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="logo"><span>Haji-Suhaib</span></a>
+
+      <nav id="menu" class="nav__links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Switch between dark and light theme">🌙</button>
+        <button id="menuToggle" class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Suhaib Mohamed <span class="gradient">Abdi</span></h1>
+          <p class="hero__role">
+            <span id="typed"></span><span class="cursor">|</span>
+          </p>
+          <p class="hero__lead">
+            IT Specialist, graphic designer and technical installer from Hargeisa,
+            Somaliland. I help users solve computer problems, and I am building real
+            software on the side to grow into a full-stack web developer.
+          </p>
+          <div class="hero__cta">
+            <a href="#contact" class="btn btn--primary">Hire / contact me</a>
+            <a href="#experience" class="btn btn--ghost">See my experience</a>
+          </div>
+          <ul class="hero__facts">
+            <li><strong>IT Support</strong><span>Troubleshooting &amp; installation</span></li>
+            <li><strong>C# + SQL</strong><span>Desktop systems</span></li>
+            <li><strong>Graphic Design</strong><span>Freelance</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__card">
+          <!-- PHOTO: put your picture in a folder called "images" and name it profile.jpg -->
+          <div class="photo">
+            <div class="photo__frame">
+              <span class="photo__initials">SMA</span>
+              <img src="picture.jpeg" alt="Portrait of Suhaib Mohamed Abdi"
+                   onerror="this.style.display='none'">
+            </div>
+            <div class="photo__chip photo__chip--top">🛠️ IT Support · Design · Code</div>
+            <div class="photo__chip photo__chip--bottom">📍 Hargeisa, Somaliland</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container">
+        <p class="section__tag">01 · About me</p>
+        <h2>Character first, then code</h2>
+
+        <div class="about reveal">
+          <div class="about__text">
+            <p>
+              I am a motivated and responsible person with a growing background in
+              Information Technology and technical installation. I am particularly
+              interested in working as an <strong>IT Support Technician</strong>, where I can
+              apply my technical skills to solve computer-related problems and support
+              users effectively.
+            </p>
+            <p>
+              Alongside my university degree in ICT, I build real software: a desktop
+              management system with C# and SQL Server, and now this portfolio with
+              HTML, CSS and JavaScript. I do not want to only collect certificates or
+              copy code. I want to understand the logic behind what I build, so that I
+              can solve real problems independently.
+            </p>
+            <p>
+              I believe good character matters as much as technical skill. Honesty,
+              discipline, respect, humility and responsibility are the values I want to
+              carry into my career.
+            </p>
+          </div>
+
+          <aside class="about__side">
+            <div class="info">
+              <span>Location</span><strong>Hargeisa, Somaliland</strong>
+            </div>
+            <div class="info">
+              <span>Studying</span><strong>Software Engineering· Unity University</strong>
+            </div>
+            <div class="info">
+              <span>Languages</span><strong>Somali (native), English (intermediate)</strong>
+            </div>
+            <div class="info">
+              <span>Looking for</span><strong>IT support / junior technical roles</strong>
+            </div>
+          </aside>
+        </div>
+
+        <div class="values reveal">
+          <div class="value">Quick learner</div>
+          <div class="value">Good teamwork</div>
+          <div class="value">Responsible &amp; disciplined</div>
+          <div class="value">Honest</div>
+          <div class="value">Respectful</div>
+          <div class="value">Interested in technology</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <p class="section__tag">02 · Skills</p>
+        <h2>What I know, and how well</h2>
+        <p class="section__lead">
+          I would rather be honest than impressive. Each skill is labelled by my real
+          level, so you can see exactly where I stand.
+        </p>
+
+        <div class="legend reveal">
+          <span class="badge badge--using">Using in real work</span>
+          <span class="badge badge--studied">Trained / practised</span>
+          <span class="badge badge--learning">Learning now</span>
+        </div>
+
+        <div class="skills">
+          <article class="skill-card reveal">
+            <h3>IT Support &amp; Installation</h3>
+            <ul>
+              <li>IT technical support <span class="badge badge--studied">Trained / practised</span></li>
+              <li>Computer troubleshooting <span class="badge badge--studied">Trained / practised</span></li>
+              <li>Software installation <span class="badge badge--studied">Trained / practised</span></li>
+              <li>Windows installation <span class="badge badge--studied">Trained / practised</span></li>
+              <li>Basic computer maintenance <span class="badge badge--studied">Trained / practised</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Security Devices</h3>
+            <ul>
+              <li>CCTV camera installation <span class="badge badge--studied">Trained / practised</span></li>
+              <li>Fingerprint device setup <span class="badge badge--studied">Trained / practised</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Graphic Design</h3>
+            <ul>
+              <li>Posters &amp; layouts <span class="badge badge--using">Using in real work</span></li>
+              <li>Simple branding materials <span class="badge badge--using">Using in real work</span></li>
+              <li>Adobe Photoshop <span class="badge badge--studied">Trained / practised</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Programming</h3>
+            <ul>
+              <li>C# &amp; Windows Forms <span class="badge badge--using">Using in real work</span></li>
+              <li>Guna UI Framework <span class="badge badge--using">Using in real work</span></li>
+              <li>Debugging <span class="badge badge--learning">Learning now</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Databases</h3>
+            <ul>
+              <li>Microsoft SQL Server <span class="badge badge--using">Using in real work</span></li>
+              <li>Tables, keys &amp; relationships <span class="badge badge--using">Using in real work</span></li>
+              <li>Database design <span class="badge badge--learning">Learning now</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Web Development</h3>
+            <ul>
+              <li>HTML <span class="badge badge--studied">Trained / practised</span></li>
+              <li>CSS <span class="badge badge--studied">Trained / practised</span></li>
+              <li>JavaScript <span class="badge badge--learning">Learning now</span></li>
+              <li>Responsive design <span class="badge badge--learning">Learning now</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section">
+      <div class="container">
+        <p class="section__tag">03 · Experience</p>
+        <h2>Work experience</h2>
+
+        <article class="project reveal">
+          <span class="badge badge--using">Freelance</span>
+          <h3>Freelance Graphic Designer</h3>
+          <ul class="checklist">
+            <li>Designed posters, simple branding materials and creative layouts.</li>
+            <li>Used graphic design tools to create visual content for different purposes.</li>
+            <li>Improved my practical design and communication skills through freelance work.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section section--alt">
+      <div class="container">
+        <p class="section__tag">04 · Projects</p>
+        <h2>What I am building</h2>
+
+        <article class="project reveal">
+          <div class="project__head">
+            <div>
+              <span class="badge badge--learning">In development</span>
+              <h3>Tayasiir Academy Management System</h3>
+            </div>
+          </div>
+          <p>
+            A desktop application for managing the daily work of an academy: students,
+            teachers, courses, payments and reports. It is also the subject of my
+            academic thesis, so the database design, interface, diagrams and written
+            documentation all have to agree with one another.
+          </p>
+
+          <div class="project__grid">
+            <div>
+              <h4>Modules</h4>
+              <ul class="checklist">
+                <li>Dashboard</li>
+                <li>Students</li>
+                <li>Teachers</li>
+                <li>Courses</li>
+                <li>Payments</li>
+                <li>Reports</li>
+                <li>User &amp; administrator management</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Technology</h4>
+              <div class="tags">
+                <span>C#</span>
+                <span>Windows Forms</span>
+                <span>Guna UI</span>
+                <span>SQL Server 2022</span>
+                <span>Visual Studio</span>
+              </div>
+              <h4>What it taught me</h4>
+              <p class="small">
+                Software development is more than writing code: it means analysing
+                requirements, designing the database, building the interface, testing,
+                and documenting the whole system.
+              </p>
+            </div>
+          </div>
+          <!-- TODO: when the project is ready, add screenshots in an "images" folder and a link here -->
+        </article>
+
+        <article class="project project--next reveal">
+          <h3>This portfolio website</h3>
+          <p class="small">
+            My first public web project, written by hand with HTML, CSS and
+            JavaScript and hosted for free on GitHub Pages.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section">
+      <div class="container">
+        <p class="section__tag">05 · Education</p>
+        <h2>My journey so far</h2>
+
+        <div class="timeline">
+          <div class="timeline__item reveal">
+            <span class="timeline__dot"></span>
+            <h3>Unity University, Hargeisa</h3>
+            <p class="small">ICT degree · 2025 – expected graduation</p>
+            <p>Relevant courses: Communication Skills, Ethics &amp; Professionalism, Report Writing, System Analysis and Database Management.</p>
+          </div>
+          <div class="timeline__item reveal">
+            <span class="timeline__dot"></span>
+            <h3>Tisqaad Computer Science College</h3>
+            <p class="small">2025 – 2026</p>
+            <p>Practical IT training: technical support, networking, CCTV and fingerprint systems.</p>
+          </div>
+          <div class="timeline__item reveal">
+            <span class="timeline__dot"></span>
+            <h3>Salaxley Secondary School</h3>
+            <p class="small">2024 – 2025</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GOALS (only two) ============ -->
+    <section id="goals" class="section section--alt">
+      <div class="container">
+        <p class="section__tag">06 · Goals</p>
+        <h2>Where I am going</h2>
+        <p class="section__lead">
+          Two clear goals, one step at a time.
+        </p>
+
+        <ol class="roadmap">
+          <li class="reveal"><span>Goal 1</span><strong>Graduate in ICT, finish Tayasiir Academy, and start my career as an IT Support Technician</strong></li>
+          <li class="reveal"><span>Goal 2</span><strong>Grow into a professional full-stack web developer</strong></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <p class="section__tag">07 · Contact</p>
+        <h2>Let's connect</h2>
+        <p class="section__lead">
+          I am looking for IT support opportunities, internships and people to learn from.
+          If you would like to talk, I would be glad to hear from you.
+        </p>
+
+        <div class="contact__grid">
+          <div class="contact__cards">
+            <a class="contact-card reveal" href="mailto:Suhaypmaxamed15@gmail.com">
+              <span class="contact-card__icon">✉️</span>
+              <div><strong>Email</strong><span>Suhaypmaxamed15@gmail.com</span></div>
+            </a>
+            <a class="contact-card reveal" href="https://wa.me/252634189483" target="_blank" rel="noopener">
+              <span class="contact-card__icon">💬</span>
+              <div><strong>WhatsApp</strong><span>+252 63 4189483</span></div>
+            </a>
+            <a class="contact-card reveal" href="tel:+252634189483">
+              <span class="contact-card__icon">📞</span>
+              <div><strong>Phone</strong><span>+252 63 4189483</span></div>
+            </a>
+            <!-- TODO: replace YOUR_GITHUB_USERNAME with your real GitHub username -->
+            <a class="contact-card reveal" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener">
+              <span class="contact-card__icon">🐙</span>
+              <div><strong>GitHub</strong><span>github.com/YOUR_GITHUB_USERNAME</span></div>
+            </a>
+            <div class="contact-card reveal">
+              <span class="contact-card__icon">📍</span>
+              <div><strong>Location</strong><span>Hargeisa, Somaliland</span></div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form reveal" novalidate>
+            <h3>Send me a message</h3>
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="e.g. Ahmed Ali" required>
+
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit" class="btn btn--primary">Send message</button>
+            <p id="formStatus" class="small" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Suhaib Mohamed Abdi · Hargeisa, Somaliland</p>
+      <p class="small">Built by hand with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
