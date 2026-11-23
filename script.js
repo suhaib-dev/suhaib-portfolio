@@ -49,7 +49,7 @@ menu.querySelectorAll("a").forEach((link) => {
 const roles = [
   "IT Support Technician",
   "Graphic Designer",
-  "Technical Installation",
+  "Vibe Coder (AI-assisted)",
   "Aspiring Full-Stack Developer",
 ];
 const typedEl = document.getElementById("typed");
